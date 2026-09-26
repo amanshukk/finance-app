@@ -159,7 +159,9 @@ res/mipmap-{m,h,xh,xxh,xxxh}dpi/ic_launcher_round.png
 res/mipmap-{m,h,xh,xxh,xxxh}dpi/ic_launcher_foreground.png
 ```
 
-The icon is a black rounded square with a white "F" letterform.
+The icon is a teal-to-emerald gradient rounded square with a white "F" whose
+mid-bar flows into a rising trend arrow (regenerated 2026-09-26 with
+`tools/make_logo.py`, replacing the original black/white "F").
 
 Permissions, from the manifest — only these are requested:
 
