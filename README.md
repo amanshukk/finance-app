@@ -17,6 +17,10 @@ native shell**.
 > compiled `FinanceApp.apk`, not from its source tree. Application logic is faithful
 > to the shipped JavaScript bundle, but this is **not** the original TypeScript/JSX.
 > Read **[RECOVERY.md](RECOVERY.md)** before treating any of it as canonical.
+>
+> **Reproducing the app exactly?** Read **[BUILD-GUIDE.md](BUILD-GUIDE.md)** first. It
+> pins the versions, lists the 53 Tailwind classes and design tokens, and calls out
+> the changes you must *not* make.
 
 ## What the app does
 
@@ -48,6 +52,7 @@ Native device integration is limited to two plugins, both confirmed in
 ## Repository layout
 
 ```
+BUILD-GUIDE.md          Spec for reproducing the app exactly — read this first
 src/app/page.jsx        Reconstructed application source (5,788 lines, 14 components)
 src/app/layout.jsx      Root layout + metadata
 src/app/globals.css     Tailwind directives + the app's two custom CSS rules
