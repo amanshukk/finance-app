@@ -1,0 +1,29 @@
+{
+  "name": "financeapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FinanceApp (com.financeapp) - Next.js + Capacitor personal finance dashboard. Source reconstructed from the shipped APK; see RECOVERY.md.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync": "npm run build && cap sync"
+  },
+  "dependencies": {
+    "@capacitor/camera": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "lucide-react": "^0.400.0",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "3.4.19"
+  }
+}

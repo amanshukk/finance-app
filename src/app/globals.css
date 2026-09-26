@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Recovered verbatim from the app's compiled stylesheet
+   (out/_next/static/css/54b636a4fdda4c2a.css) - these are the only
+   non-Tailwind rules in the shipped bundle. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #f1f0ed;
+}

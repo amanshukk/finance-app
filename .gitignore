@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out-next/
+*.log
+.DS_Store
+.env*.local
+
+# jadx scratch
+/tmp-jadx/
